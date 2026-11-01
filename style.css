@@ -46,3 +46,5 @@
 /* Polish: contact button, coursework on the shared grid, testing note in body font */
 .contact-bottom{align-items:center}.contact-bottom .contact-email{font-size:14px;padding:14px 22px}.contact-address{display:flex;align-items:center;justify-content:flex-end;gap:14px;margin-top:12px;font-size:13px;color:var(--muted)}.contact-address>span{user-select:all}.contact-bottom .contact-address button{display:inline-flex;padding:0;min-height:0;margin:0;font:11px var(--mono)}.contact-bottom>div{padding-bottom:0}.contact-bottom [role=status]{min-height:0}.placement-practice p{font:13px/1.8 'DM Sans',sans-serif;color:#425c62}@media(min-width:1051px){.foundations{grid-template-columns:repeat(3,minmax(0,1fr));gap:0}.foundation-links{grid-column:span 2;padding-left:28px}}@media(max-width:760px){.contact-address{justify-content:flex-start}.contact-bottom .contact-email{margin-top:4px}}
 @media(max-width:760px){.contact-meta .label:last-child{max-width:none;white-space:nowrap}}
+/* Hero panel without footer bar */
+.systems .fact-list{padding-bottom:20px}
