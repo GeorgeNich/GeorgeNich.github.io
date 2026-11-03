@@ -48,3 +48,5 @@
 @media(max-width:760px){.contact-meta .label:last-child{max-width:none;white-space:nowrap}}
 /* Hero panel without footer bar */
 .systems .fact-list{padding-bottom:20px}
+/* Phone: readable labels and 44px tap targets */
+@media(max-width:760px){.label,.available,.intro-top .label,.foundation-links span,footer>span,.image-note,.image-coordinate,.call-top,.feature-list li>span{font-size:10px!important}.intro-links .quiet-link,footer>a,footer>div a,.contact-bottom .contact-address button{position:relative}.intro-links .quiet-link::after,footer>a::after,footer>div a::after,.contact-bottom .contact-address button::after{content:"";position:absolute;inset:-13px -6px}.contact-bottom .contact-address button::after{inset:-15px -8px}}
