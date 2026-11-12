@@ -48,7 +48,20 @@
 @media(max-width:760px){.contact-meta .label:last-child{max-width:none;white-space:nowrap}}
 /* Hero panel without footer bar */
 .systems .fact-list{padding-bottom:20px}
-.fact-list dd a:is(:hover, :focus-visible) {
+.featured-projects {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.featured-projects small {
+  margin-top: 2px;
+}
+.featured-projects a span {
+  color: var(--teal);
+}
+.featured-projects a:is(:hover, :focus-visible) {
   text-decoration: underline;
   text-underline-offset: 0.2em;
 }
